@@ -1,0 +1,31 @@
+.works {
+    /* height: 100vh; */
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    border: 2px solid red;
+    height: 100%;
+    width: 80%;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itemsContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid green;
+    flex-wrap: wrap;
+    gap: 30px;
+}

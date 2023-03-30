@@ -1,0 +1,14 @@
+.Text {
+    height: 300px;
+    width: 500px;
+    /* align-self: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Text img{
+    width: 200px;
+    height: 200px;
+}

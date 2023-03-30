@@ -1,0 +1,10 @@
+.work {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-self: center;
+}

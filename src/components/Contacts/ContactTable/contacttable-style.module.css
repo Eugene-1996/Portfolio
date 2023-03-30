@@ -1,0 +1,9 @@
+.contactTable {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid grey;
+}

@@ -1,0 +1,10 @@
+header {
+    height: 80px;
+    width: 100vw;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    /* margin-left: 40px; */
+    /* margin-right: 40px; */
+  }
