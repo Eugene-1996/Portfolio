@@ -6,7 +6,7 @@
 }
 
 .container {
-    width: 40%;
+    width: 80%;
     height: 50%;
     border: 2px solid red;
     display: flex;
