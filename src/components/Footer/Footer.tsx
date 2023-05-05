@@ -5,9 +5,13 @@ const Footer = () => {
     return (
         <div className={style.footer}>
             <div className={style.container}>
+                <div>
                 <h4>Samarin Evgeniy</h4>
-                <p>Content</p>
-                <p>2023</p>
+                </div>
+                <div>
+                <p>Copyright © 2023 Callum. All Rights Reserved.</p>
+                </div>
+               
             </div>
         </div>
     );

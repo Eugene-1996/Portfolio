@@ -1,10 +1,11 @@
 .remote {
-    height: 40vh;
-    background-color: white;
+    min-height: 60vh;
+    background-image: url('https://png.pngtree.com/background/20210710/original/pngtree-51-laptop-promotion-banner-background-picture-image_1014416.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
 }
 
 
@@ -12,8 +13,25 @@
     width: 80%;
     display: flex;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     justify-content: center;
     flex-direction: column;
     gap: 40px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    color: white;
+    width: 40%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container button {
+    background-color: #f5df4e;
+    font-size: 20px;
+    border: none;
 }

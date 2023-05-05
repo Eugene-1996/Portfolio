@@ -1,10 +1,15 @@
 header {
     height: 80px;
     width: 100vw;
-    background-color: green;
+    background-color: whitesmoke;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     /* margin-left: 40px; */
     /* margin-right: 40px; */
+    position: fixed;
+  }
+
+  h1 {
+    margin-left: 30px;
   }

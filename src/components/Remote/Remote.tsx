@@ -5,8 +5,10 @@ const Remote = () => {
     return (
         <div className={style.remote}>
             <div className={style.container}>
-                <div className={style.title}>Open For Remote</div>
-                <button>Hire me</button>
+                <div className={style.title}>
+                    <h5>Interested in working with me?</h5>
+                </div>
+                <button>Hire me!</button>
             </div>
         </div>
     );

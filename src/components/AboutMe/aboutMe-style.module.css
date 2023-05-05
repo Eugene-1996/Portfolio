@@ -1,0 +1,63 @@
+.main {
+    background-color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     /* margin-top: 5%; */
+}
+
+
+.container {
+    /* height: 90%; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.aboutme {
+    width: 10%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-self: center; */
+    background-color: #f5df4e;
+    margin-bottom: 20px;
+}
+
+.knowme {
+    font-weight: 600!important;
+    font-size: 40px;
+    margin-bottom: 40px;
+
+}
+
+
+.name {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    align-self: flex-start;
+    width: 70%;
+    font-size: 21px;
+}
+
+.name h2 {
+    margin: 0;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+}

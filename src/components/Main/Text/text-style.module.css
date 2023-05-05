@@ -1,14 +1,42 @@
 .Text {
-    height: 300px;
-    width: 500px;
+  
     /* align-self: center; */
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
-.Text img{
+/* .Text img{
     width: 200px;
     height: 200px;
+} */
+
+.textBlock {
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 800px;
+}
+
+.textBlock p {
+    color: black;
+    font-size: 40px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Poppins', sans-serif; 
+
+}
+
+@media screen and (max-width: 1488px){
+    .textBlock p {
+        /* height: 100px;
+        width: 400px; */
+        /* background-color: blueviolet; */
+        /* align-items: flex-start; */
+        justify-content: center;
+        
+        
+    }
+  
 }

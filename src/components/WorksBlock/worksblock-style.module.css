@@ -1,6 +1,7 @@
 .works {
-    /* height: 100vh; */
-    background-color: wheat;
+    min-height: 100vh;
+    /* background-color: whitesmoke; */
+    background-color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,11 +10,29 @@
 
 .container {
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 100%;
     width: 80%;
     justify-content: flex-start;
     flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header h5 {
+    background-color: #f5df4e;
+    width: 40%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -25,7 +44,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     flex-wrap: wrap;
     gap: 30px;
 }
